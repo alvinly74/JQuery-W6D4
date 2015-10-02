@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Cool Website</title>
+    <!-- <script src="./jquery-1.11.1.js"></script> -->
+    <link href="./tabs.css" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="./tabs.js"></script>
+  </head>
+
+  <body>
+
+    <ul class='tabs' data-content-tabs="#content-tabs">
+      <li><a class='active' href="#corgi">Corgi</a></li>
+      <li><a href="#chinese-crested">Chinese Crested</a></li>
+      <li><a href="#groenendael">Groenendael</a></li>
+    </ul>
+
+    <section class='content-tabs'>
+
+      <article class="active" id="corgi">
+        <p>
+          The Cardigan Welsh Corgi equals big personality in a little dog. These are intelligent, active, alert little guys who will want to be the center of your world. They love to be with their families, and will shower you with loyalty, devotion and affection. They need daily exercise and love to take long walks with you. They are intelligent and eager to please and do great with obedience training. They excel in obedience, agility, flyball, Frisbee, herding, and tracking competitions. They get along very well with respectful children, but parents need to be aware that Corgis might try to herd kids. (They also might try to herd other animals and your houseguests.) Most Corgis like to be with other cats and dogs. They are adaptable dogs and can live anywhere as long as they get walked, but they do like to bark, so close neighbors might object. While personalities differ within the breed, in general, the Corgi is even-tempered, hardy, friendly, loyal and loving. And they are always full of fun.
+        </p>
+      </article>
+
+      <article class="" id="chinese-crested">
+        <p>
+          The Chinese Crested is an elegant little toy dog who craves human companionship. They are loving, lovable, cuddly, affectionate, and love to give kisses. They do well in families with gentle children. They are comical, happy, lively, entertaining, and love to play. They even invent their own games. Sometimes they think they are a cat: they love to sit in high places and paw at their toys. They aren't good watchdogs and may or may not bark at the presence of a stranger on your doorstep. They are not yappy. They do howl, and can sometimes be trained to "sing" on command. They are often aloof with strangers and can be overly timid. They should be socialized when they are young to help with this. If your Chinese Crested shivers when it's not cold out, it just means he is nervous or excited. If it is cold out, they love to wear fashionable sweaters. They have minimal exercise needs and will be very happy with about an hour a day of play. They excel at agility, obedience training, and rally. These little guys are truly people dogs and they don't like to be left alone. Their job is to be your loving companion. (This is one of the reasons they make such great therapy dogs!) They don't like to be left alone, and might just chew your favorite slippers.
+        </p>
+      </article>
+
+      <article class="" id='groenendael'>
+        <p>
+          The Belgian Sheepdog (also known as Groenendael) is a high-energy, highly versatile dog known for his loyalty and protectiveness. They develop very strong bonds with their owners. They thrive as members of highly active families, especially when given jobs to do. The Belgian Sheepdog is very quick to learn, highly trainable, very intelligent, and needs to be mentally stimulated! He also needs to be physically stimulated with lots of daily exercise! They enjoy obedience, schutzhund, agility, flyball, Frisbee, herding, sledding, and tracking. They also work as search and rescue dogs, guide dogs, and therapy dogs. If you don't give him enough exercise and purpose, the Belgian Sheepdog will run around your house causing chaos and destruction, while barking all the time. If he gets bored, he will probably chew the rockers off your rocking chair and destroy your couch. The Belgian Sheepdog loves to be with his family, but can be wary of strangers. They are alert and observant and make good watchdogs. They are naturally protective, and are even possessive. They might try to herd you and your kids. They do well with children. However, these are strong, energetic dogs, who might accidentally run into and knock over a child. They will also chase small animals. They do best with a fenced-in yard, and they love to spend time playing outdoors. But this doesn't mean you can banish him to the yard. Belgian Sheepdogs need to be with their families. They are sensitive, affectionate dogs, who with proper love and discipline are happy, responsive, playful companions with a great sense of humor. They can live anywhere, country or suburban, as long as they get to use up their energy. They just need an owner who is willing to invest the necessary time and effort in training, exercising, socialization and bonding!
+        </p>
+      </article>
+
+    </section>
+
+  <script>
+    $(function() {
+      $('.tabs').tabs();
+    })
+  </script>
+  </body>
+</html>
